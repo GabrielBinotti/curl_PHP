@@ -1,0 +1,24 @@
+{
+    "name": "gabriel-binotti/curl-php",
+    "description": "Simples class to curl request in PHP",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Gabriel da Silva Binotti",
+            "email": "gabrielbinotti.dev@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "GabrielBinottiCurl\\" : "application"
+        }
+    },
+
+    "minimum-stability": "stable",
+    "require": {
+        "PHP": ">=8.0"
+    }
+
+}
